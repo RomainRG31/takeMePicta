@@ -26,8 +26,8 @@ const Header = () => {
           </p>
         </div>
         <div className="header-pictures">
-          <img src={me} className="me" width={500} height={650} alt="" />
-          <img src={code} className="code" width={850} height={600} alt="" />
+          <img src={me} className="me" width={"60%"} height={"100%"} alt="" />
+          <img src={code} className="code" width={"100%"} height={600} alt="" />
         </div>
       </div>
     </header>

@@ -15,7 +15,7 @@ const Main = () => {
           <div className="left-block-video">
             <h2>Une opportunité se profile à l’horizon</h2>
             <iframe
-              width="960"
+              width="50%"
               height="615"
               src={src}
               frameborder="0"
@@ -35,8 +35,8 @@ const Main = () => {
             <img
               src={IA}
               className="ia"
-              width={550}
-              height={550}
+              width={"100%"}
+              height={"50%"}
               alt="Image générée par une IA représentant un homme de dos en position de tailleur regardant les montagnes au soleil couchant"
             />
           </div>

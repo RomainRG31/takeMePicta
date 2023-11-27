@@ -5,7 +5,7 @@ const Card = ({ img, title, text, sentence }) => {
   return (
     <div className="container-card">
       <p className="sentence">{sentence}</p>
-      <img src={img} width={500} height={700} alt="" />
+      <img src={img} width={"75%"} height={700} alt="" />
       <h2>{title}</h2>
       <p>{text}</p>
     </div>
