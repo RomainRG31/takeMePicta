@@ -6,10 +6,10 @@ Ce site est une représentation personnelle et professionnelle de mes compétenc
 
 ## Lancement du projet :
 
-``
+```
 git clone
 npm i
-npm run dev``
+npm run dev```
 
 
 
