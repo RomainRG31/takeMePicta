@@ -9,7 +9,7 @@ Ce site est une représentation personnelle et professionnelle de mes compétenc
 ```
 git clone
 npm i
-npm run dev```
+npm run dev
 
 
 
