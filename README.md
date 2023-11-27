@@ -8,6 +8,7 @@ Ce site est une représentation personnelle et professionnelle de mes compétenc
 
 ```bash
 git clone
+cd takemepicta
 npm i
 npm run dev
 ```
