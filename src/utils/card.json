@@ -1,0 +1,21 @@
+[
+  {
+    "id": 0,
+    "img": "/mosaique1.png",
+    "title": "Les voyages",
+    "text": "Mes voyages entre les côtes Est et Ouest des États-Unis, de la dynamique New York à la splendide San Francisco en passant par le grand canyon et bien d’autres, ont aiguisé ma passion pour l'exploration et la découverte, laissant des souvenirs impérissables."
+  },
+  {
+    "id": 2,
+    "img": "/armyMe.jpeg",
+    "title": "L'entraide",
+    "text": "Mon passage à l'armée de terre chez les artilleurs de montagne a profondément renforcé ma conviction en l'importance de l'entraide. Là, j'ai appris la valeur de la solidarité et du travail d'équipe, des expériences qui ont façonné mon approche de la vie et m'ont enseigné l'importance de soutenir autrui."
+  },
+  {
+    "id": 1,
+    "sentence": "Parce que la remise en question est la clé",
+    "img": "/mosaique2.png",
+    "title": "Le sport",
+    "text": "Ma passion pour le sport s'est intensifiée à travers des expériences variées, du rugby avec un passage au stade toulousain dans mon enfance, le wakeboard, les trails en montagne, chaque activité renforçant mon amour pour le mouvement et le dépassement de soi."
+  }
+]

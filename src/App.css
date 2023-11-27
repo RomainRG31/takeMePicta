@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Mulish;
+  src: url(./fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: MulishBold;
+  src: url(./fonts/Mulish-ExtraBold.ttf) format("truetype");
+}
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Mulish;
+  line-height: 1.5;
+}
+
+button {
+  font-family: Mulish;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  background-color: #db3753;
+  border: 0.3rem solid #db3753;
+  border-radius: 1rem;
+  color: white;
+  padding: 1.2rem 2.8rem;
+  transition: all 0.2s ease-out;
+  font-size: 1.2rem;
+  &:hover {
+    background-color: transparent;
+    color: #db3753;
+    transition: all 0.2s ease-in;
+  }
+  &:visited {
+    color: white;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  margin: 0;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 70px;
+  line-height: 0.9;
+  font-weight: 600;
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+body {
+  font-family: Mulish, "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.max-width {
+  max-width: 1660px;
+  margin: auto;
+}

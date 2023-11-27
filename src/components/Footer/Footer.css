@@ -1,0 +1,50 @@
+.car-time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bike-time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.block-infos {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.social-media div {
+  position: relative;
+}
+
+.social-media img {
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.social-media img.linkedin-hover,
+.social-media img.github-hover,
+.social-media img.portfolio-hover {
+  opacity: 0;
+}
+
+.social-media div:hover img {
+  opacity: 0;
+}
+
+.social-media div:hover .linkedin-hover,
+.social-media div:hover .github-hover,
+.social-media div:hover .portfolio-hover {
+  opacity: 1;
+}

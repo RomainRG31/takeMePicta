@@ -1,0 +1,9 @@
+.container-card img {
+  border-radius: 45px;
+}
+
+.sentence {
+  text-align: right;
+  font-size: 40px;
+  padding-bottom: 40px;
+}

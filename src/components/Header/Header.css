@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Mulish;
+  src: url(../../fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+header h1 {
+  font-size: 70px;
+  line-height: 0.9;
+  padding-left: 2rem;
+  font-weight: 500;
+}
+
+.logo {
+  align-self: center;
+}
+
+.creatifs-title {
+  font-style: italic;
+  color: #db3753;
+  font-size: 70px;
+  font-weight: 800;
+  padding-left: 1rem;
+}
+
+.left-block {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  & p {
+    width: 50%;
+  }
+}
+
+.first-block-header {
+  display: flex;
+  padding-top: 5rem;
+}
+
+.header-pictures {
+  display: flex;
+  position: relative;
+}
+
+.header-pictures img {
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.code {
+  transform: rotate(10deg);
+  z-index: -1;
+}
+
+.me {
+  position: absolute;
+  right: 70%;
+}
