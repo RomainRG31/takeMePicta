@@ -31,7 +31,6 @@ header h1 {
   gap: 20px;
   display: flex;
   flex-direction: column;
-  width: 50%;
   & p {
     width: 50%;
   }
