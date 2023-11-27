@@ -232,6 +232,6 @@ iframe {
 }
 @media screen and (max-width: 1660px) {
   .max-width {
-    max-width: 1280px;
+    max-width: 1280px !important;
   }
 }
