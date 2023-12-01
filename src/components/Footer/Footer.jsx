@@ -14,7 +14,8 @@ const Footer = () => {
   return (
     <div className="bg-black">
       <div className="max-width">
-        <img src={logo} width={300} height={50} alt="Logo de Pictarine" />
+        <p className="Romain">Romain</p>
+        {/* <img src={logo} width={300} height={50} alt="Logo de Pictarine" /> */}
         <div className="block-infos">
           <p>15 rue des Ormeaux</p>
           <p>31450 Belberaud</p>
