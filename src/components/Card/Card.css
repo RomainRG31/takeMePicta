@@ -1,6 +1,10 @@
 .container-card img {
   border-radius: 45px;
 }
+.container-sentence {
+  display: flex;
+  justify-content: end;
+}
 
 .sentence {
   text-align: right;
