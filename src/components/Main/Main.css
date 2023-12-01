@@ -137,6 +137,15 @@ iframe {
     font-size: 50px !important;
   }
 
+  .container-card {
+    align-items: center;
+  }
+
+  .header-pictures {
+    width: 300px;
+    justify-content: inherit;
+  }
+
   .creatifs-title-degraded {
     font-size: 50px !important;
   }
@@ -233,5 +242,22 @@ iframe {
 @media screen and (max-width: 1660px) {
   .max-width {
     max-width: 1280px !important;
+  }
+
+  .left-block p {
+    width: 75% !important;
+  }
+  .me {
+    width: 50%;
+    height: 100%;
+  }
+
+  .header-pictures {
+    justify-content: flex-end;
+  }
+
+  .code {
+    width: 85%;
+    height: 100%;
   }
 }
