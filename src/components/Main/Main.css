@@ -260,4 +260,8 @@ iframe {
     width: 85%;
     height: 100%;
   }
+
+  .first-block-header {
+    gap: 100px;
+  }
 }
