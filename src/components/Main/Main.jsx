@@ -6,7 +6,7 @@ import card from "../../utils/card.json";
 import hands from "../../assets/hands.png";
 
 const Main = () => {
-  const src = `https://youtu.be/HSGI30pFuYk?si=s-pvwW-bCSG6mMFJ`;
+  const src = `https://youtu.be/1qrx1rGiAYQ?si=JwXYEep1ggDRWmHl`;
   const phoneNumber = "0699320178";
   return (
     <>
@@ -15,11 +15,12 @@ const Main = () => {
           <div className="left-block-video">
             <h2>Une opportunité se profile à l’horizon</h2>
             <iframe
-              width="50%"
-              height="615"
-              src={src}
+              width="70%"
+              height="500"
+              src="https://www.youtube.com/embed/1qrx1rGiAYQ?si=JwXYEep1ggDRWmHl"
+              title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
             <p>
@@ -87,7 +88,7 @@ const Main = () => {
           </div>
           <div className="h3">
             <h3>
-              Ça donne envie ?<br></br>
+              <p>Ça donne envie ?</p>
               <span className="h3-title">Entretenons-nous !</span>
               <br></br>
               <button
