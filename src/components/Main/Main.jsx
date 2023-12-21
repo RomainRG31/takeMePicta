@@ -4,10 +4,13 @@ import IA from "../../assets/manMoutain.png";
 import Card from "../Card/Card";
 import card from "../../utils/card.json";
 import hands from "../../assets/hands.png";
+import { useEffect, useState } from "react";
 
 const Main = () => {
-  const src = `https://youtu.be/1qrx1rGiAYQ?si=JwXYEep1ggDRWmHl`;
   const phoneNumber = "0699320178";
+  const videoId = "1qrx1rGiAYQ";
+  const src = `https://www.youtube.com/embed/${videoId}`;
+
   return (
     <>
       <div className="max-width">
@@ -17,7 +20,7 @@ const Main = () => {
             <iframe
               width="70%"
               height="500"
-              src="https://www.youtube.com/embed/1qrx1rGiAYQ?si=JwXYEep1ggDRWmHl"
+              src={src}
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
