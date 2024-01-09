@@ -4,11 +4,10 @@ import IA from "../../assets/manMoutain.png";
 import Card from "../Card/Card";
 import card from "../../utils/card.json";
 import hands from "../../assets/hands.png";
-import { useEffect, useState } from "react";
 
 const Main = () => {
   const phoneNumber = "0699320178";
-  const videoId = "1qrx1rGiAYQ";
+  const videoId = "kDJQMrGJRp8";
   const src = `https://www.youtube.com/embed/${videoId}`;
 
   return (
