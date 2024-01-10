@@ -7,7 +7,7 @@ import hands from "../../assets/hands.png";
 
 const Main = () => {
   const phoneNumber = "0699320178";
-  const videoId = "kDJQMrGJRp8";
+  const videoId = "jL8lSch8aFc";
   const src = `https://www.youtube.com/embed/${videoId}`;
 
   return (
